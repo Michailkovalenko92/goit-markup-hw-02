@@ -1,0 +1,82 @@
+:root {
+    --primary-text-color: #212121
+    --description-text-color: #757575
+    --accent-color: #2196F3
+    --primary-bg-color: #F5F4FA
+}
+
+body {
+background-color: #E5E5E5;
+color: #212121;
+}
+
+.link {
+
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: #212121;
+}
+.span-logo {
+    color: #2196F3;
+}
+
+/* site nav */
+
+.site-nav .link {
+    color: #212121;
+
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+
+}
+.auth-nav {
+
+}
+
+/* hero */
+
+.hero-title {
+
+}
+
+/* main */
+
+.section {
+    color: #212121;
+
+}
+
+.section-title {
+    color: #212121;
+}
+
+/* Button */
+
+.button {
+    color: var(--primary-text-color);
+    background-color: #ffffff;
+}
+
+.button.primary {
+    background-color: blue;
+    color: #ffffff;
+}
+
+.button.primary:hover {
+    background-color: #ffffff;
+    color: blue;
+}
+}
+
+.button.second {
+    background-color: #ffffff;
+    color: blue;
+}
