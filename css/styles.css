@@ -1,0 +1,52 @@
+:root {
+    --primary-text-color: #212121;
+    --other-text-color: #757575;
+    --accent-color: #2196f3;
+    --pimary-white-color: #ffffff;
+}
+
+body {
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+}
+
+.logo {
+    color: black;
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* навигация */
+
+.site-nav .link {
+    text-decoration: none;
+    color: #212121;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+.contact-nav .link {
+    text-decoration: none;
+    color: var(--other-text-color);
+}
+
+.contact-nav .link:hover, 
+.contact-nav .link:focus {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+
+
